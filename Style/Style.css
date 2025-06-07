@@ -564,14 +564,14 @@ footer {
         border-radius: var(--border-radius);
         border-bottom: 2px solid var(--main-color);
         display: none;
-       
+        z-index: -1001;
     }
      .navbar a{
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
         color: var(--background-color);
-        z-index: -1001;
+      
     }
      .navbar.active{
         display: block;
